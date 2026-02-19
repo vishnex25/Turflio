@@ -1,0 +1,110 @@
+Received add_turf request at 2026-02-18 10:29:05.750120
+Form data keys: []
+File present: False
+Received add_turf request at 2026-02-18 10:29:42.432529
+Form data keys: []
+File present: False
+Received add_turf request at 2026-02-18 10:32:17.189731
+Received add_turf request at 2026-02-18 10:32:20.700873
+Received add_turf request at 2026-02-18 10:32:24.079210
+Received add_turf request at 2026-02-18 10:32:24.650696
+Received add_turf request at 2026-02-18 10:32:24.823099
+Received add_turf request at 2026-02-18 10:32:24.965005
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371163_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371163_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Received add_turf request at 2026-02-18 10:32:44.346449
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371184_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371184_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Received add_turf request at 2026-02-18 10:33:05.239968
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371194_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371194_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Received add_turf request at 2026-02-18 10:33:15.194593
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371195_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371195_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371195_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371195_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371195_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371195_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371205_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371205_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371212_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371212_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771371214_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+Exception: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`turn_app`.`turfs`, CONSTRAINT `turfs_ibfk_1` FOREIGN KEY (`owner_id`) REFERENCES `users` (`id`))')
+[SQL: INSERT INTO turfs (name, sport_type, city, location, amenities, price, image_url, status, owner_id) VALUES (%(name)s, %(sport_type)s, %(city)s, %(location)s, %(amenities)s, %(price)s, %(image_url)s, %(status)s, %(owner_id)s)]
+[parameters: {'name': 'Manju cricket', 'sport_type': 'Cricket', 'city': 'Salem', 'location': 'https://www.msn.com/en-in/money/news/infosys-anthropic-collaborate-to-roll-out-agentic-ai-for-regulated-industries/ar-AA1WuZb6?ocid=msedgntp&pc=LCTS&cvid=69950e56973a46788d68d5d6caa8db26&cvpid=69950ea7bb384bd589d31eab805b1929&ei=8', 'amenities': '', 'price': 1177.0, 'image_url': 'http://localhost:5000/uploads/1771371214_walpaper.jpg', 'status': 'approved', 'owner_id': 2}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Received add_turf request at 2026-02-18 11:34:47.036011
+Received add_turf request at 2026-02-18 11:34:53.426571
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771374897_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+DB Entry created. ID: 1
+Form data keys: ['owner_id', 'name', 'sport_type', 'city', 'location', 'amenities', 'price']
+File present: True
+Saving file to E:\Turf Application\uploads\1771374904_walpaper.jpg
+File saved successfully.
+Creating DB Entry...
+DB Entry created. ID: 2

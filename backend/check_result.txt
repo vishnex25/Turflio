@@ -1,0 +1,8 @@
+Line 167: user.is_online = True
+Line 168: user.last_seen = datetime.now()
+Line 190: user.is_online = False
+Line 191: user.last_seen = datetime.now()
+Line 200: user.is_online = True
+Line 201: user.last_seen = datetime.now()
+Line 741: online_threshold = datetime.now() - timedelta(minutes=2)
+Line 820: online_threshold = datetime.now() - timedelta(minutes=2)

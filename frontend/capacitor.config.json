@@ -1,0 +1,13 @@
+{
+  "appId": "com.turfapp.app",
+  "appName": "Turf Application",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#0f172a"
+  },
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  }
+}
