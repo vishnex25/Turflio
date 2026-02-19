@@ -1,10 +1,13 @@
 
 import axios from 'axios';
 
-// ✅ Cloud backend - works whether PC is on or off
-// After deploying to Railway, replace the URL below with your actual Railway URL
-// Example: 'https://turf-backend-production.up.railway.app/api'
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// When running as an Android APK, 'localhost' refers to the phone itself, not your PC.
+// Replace YOUR_PC_LOCAL_IP with your actual local IP (run `ipconfig` in cmd to find it).
+// Example: 'http://192.168.1.5:5000/api'
+const isNative = window.Capacitor?.isNativePlatform?.() ?? false;
+const API_URL = isNative
+    ? 'http://192.168.31.229:5000/api'   // Your PC's local IP for Android APK
+    : 'http://localhost:5000/api';
 
 export const api = axios.create({
     baseURL: API_URL,
